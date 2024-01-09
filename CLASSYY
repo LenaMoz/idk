@@ -1,0 +1,47 @@
+lass Dom:
+    def __init__(self, miejsce, ocena):
+        self.miejsce = miejsce 
+        self.ocena = ocena
+
+    def wyswietl_info(self):
+        print(f"miejsce {self.miejsce} ocena {self.ocena}")
+
+moj_dom = Dom("Marki", 10)
+moj_dom.wyswietl_info()
+
+
+
+class Ja:
+    def __init__(self, osobowosc, hobby):
+        self.osobowosc = osobowosc
+        self.hobby = hobby
+
+    def wyswietl_info(self):
+        print(f"osobowość {self.osobowosc} Hobby {self.hobby}")
+
+ja = Ja("Leniwa", "rusowanie")
+ja.wyswietl_info()
+
+
+class Homik:
+    def __init__(self, glupota, rasa):
+        self.glupota = glupota 
+        self.rasa = rasa
+
+    def wyswietl_info(self):
+        print(f"glupota homika {self.glupota} rasa {self.rasa}")
+
+moj_dom = Homik("mocna", "mocna")
+moj_dom.wyswietl_info()
+
+#POM- pani od matmy xd
+class POM:
+    def __init__(self, wymagania, rzadkosc):
+        self.wymagania = wymagania 
+        self.rzadkosc = rzadkosc
+
+    def wyswietl_info(self):
+        print(f"Wymagania {self.wymagania} RZADKOSCC: {self.rzadkosc}")
+
+moj_dom = POM("DUZE", "pospolitus (a czego sie spodziewałes?)")
+moj_dom.wyswietl_info()
